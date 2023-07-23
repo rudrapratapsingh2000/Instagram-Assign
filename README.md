@@ -50,7 +50,7 @@ Created a simple application using Spring Initializer With required depencdencie
         * #### tokenCreationDate
         * #### @OneToOne -> User 
 
-   * ### Authentication Token
+   * ### Admin 
         * #### Id
         * #### adminname
         * #### adminEmail
