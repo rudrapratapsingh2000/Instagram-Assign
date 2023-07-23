@@ -19,23 +19,24 @@ Created a simple application using Spring Initializer With required depencdencie
         * #### accounttype
         * #### bluetick
    * ### Post
-        * #### Id
-        * #### postContent
-        * #### postCaption
-        * #### postType
-        * #### location
-        * #### postCreatedTimeStamp
-        * #### postowner
+      * #### Id
+      * #### postContent
+      * #### postCaption
+      * #### postType
+      * #### location
+      * #### postCreatedTimeStamp
+      * #### postowner
 
-    * ### Like
-        * #### Id
-        * #### instaPost
-        * #### instaPost     
-    * #### Follow
-        * #### Id
-        * #### currentUser
-        * #### currentUserFollower
-         * #### bluetick
+  * ### Like
+       * #### Id
+       * #### instaPost
+       * #### instaPost   
+
+  * ### Follow
+      * #### Id
+      * #### currentUser
+      * #### currentUserFollower
+      * #### bluetick
    * ### Comment
         * #### Id
         * #### commentBody
