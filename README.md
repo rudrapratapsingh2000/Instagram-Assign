@@ -9,23 +9,51 @@ Created a simple application using Spring Initializer With required depencdencie
  ## Model
    * ### User
         * #### userId
-        * #### firstName
-        * #### lastName
-        * #### age
+        * #### userName
+        * #### userHandle
+        * #### userBio
         * #### email
         * #### phoneNumber
+        * #### password
+        * #### gender
+        * #### accounttype
+        * #### bluetick
    * ### Post
         * #### Id
-        * #### createdDate
-        * #### updatedDate
-        * #### description
-        * #### post
-        * #### @ManyToOne -> User 
+        * #### postContent
+        * #### postCaption
+        * #### postType
+        * #### location
+        * #### postCreatedTimeStamp
+        * #### postowner
+
+    * #### Like
+        * #### Id
+        * #### instaPost
+        * #### instaPost     
+    * #### Follow
+        * #### Id
+        * #### currentUser
+        * #### currentUserFollower
+         * #### bluetick
+   * ### Comment
+        * #### Id
+        * #### commentBody
+        * #### commentCreationTimeStamp
+        * #### instapost
+        * #### commenter
+            
    * ### Authentication Token
         * #### tokenId
         * #### token
         * #### tokenCreationDate
         * #### @OneToOne -> User 
+
+   * ### Authentication Token
+        * #### Id
+        * #### adminname
+        * #### adminEmail
+        * #### adminPassword     
  * ## Dto
    * ### SignInInput 
      * #### email
@@ -38,15 +66,23 @@ Created a simple application using Spring Initializer With required depencdencie
   * ### User Controller
     * #### signInInstaUser
     * #### signUpInstaUser
-    * #### updateUserDetails
-  * ### Post Controller
+    * #### sigOutInstaUser
     * #### createInstaPost
-    * #### getPost
-  
+    * #### removeInstaPost
+    * #### addComment
+    * #### removeInstaComment
+    * #### addLike
+    * #### getLikeCountByPost
+    * #### removeInstaLike
+    * #### FollowUser
+    * #### unFollowUser
+  * ### Admin Controller
+    
 ## Service 
-  * ### Student Service
+  * ### User Service
     * Sign In user
     * Sign up user 
+    * Sign Out User
     * createInstaPost
     * Update User
     * Get all Posts 
