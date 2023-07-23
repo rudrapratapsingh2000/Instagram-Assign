@@ -27,7 +27,7 @@ Created a simple application using Spring Initializer With required depencdencie
         * #### postCreatedTimeStamp
         * #### postowner
 
-    * #### Like
+    * ### Like
         * #### Id
         * #### instaPost
         * #### instaPost     
